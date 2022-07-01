@@ -1,9 +1,4 @@
-_headers
-/*
-Access-Control-Allow-Origin: *
-
-netlify.toml
 [[headers]]
-for = "/*"
-[headers.values]
-Access-Control-Allow-Origin = "*"
+   for = "/*"
+   [headers.values]
+      Access-Control-Allow-Origin = "*"
